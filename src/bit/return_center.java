@@ -11,7 +11,7 @@ class tt {
 	      }else{
 	          answer = String.valueOf(s.charAt(a/2-1))+String.valueOf(s.charAt(a/2));
 	      }
-	      String oo;
+	      
 	      return answer;
 	  }
 	  String getMiddle(String word){
@@ -24,7 +24,11 @@ public class return_center {
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
 		tt so = new tt();
-		System.out.println(so.solution("grtpgr"));
+		for(int i=0 ; i < 100000;i++) {
+				so.getMiddle("ffffffgggggggggggggggggfffffff");
+		}
+		long endTime = System.currentTimeMillis();
+		System.out.println((endTime-startTime)/1000.0f + "ÃÊ" );
 	}
 }
 
