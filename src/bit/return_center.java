@@ -3,6 +3,7 @@ package bit;
 
 
 class tt {
+	//중간값 구하기 홀수면 하나 짝수면 2개의 값
 	  public String solution(String s) {
 	      String answer = "";
 	      int a = s.length();
