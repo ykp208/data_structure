@@ -45,6 +45,9 @@ class HashTable{
 	void put(String key,String value) {
 		int hashcode = getHashCode(key);
 		int index = convertToIndex(hashcode);
+		
+		System.out.println(key + ", hashcode(" + hashcode + "), index(" + index + ")");
+		
 		LinkedList<Node> list = data[index];
 		if(list == null) {
 			list = new LinkedList<Node>();
