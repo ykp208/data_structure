@@ -45,6 +45,7 @@ public class QuickSort {
 		int[] arr = {3,9,4,7,5,0,1,6,8,2};
 		printArray(arr);
 		quickSort(arr);
+		quickSort(arr);
 		printArray(arr);
 	}
 }
