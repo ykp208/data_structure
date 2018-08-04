@@ -21,7 +21,7 @@ class tt {
 	    }
 	}
 
-public class return_center {
+public class Return_Center {
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
 		tt so = new tt();
