@@ -3,7 +3,7 @@ package bit;
 public class Bit_04 {
 
 	static int clearLeftBits(int num, int i) {
-		return num & ((i << 1) -1 );
+		return num & ((i << 1) -1 ); 
 	}
 	public static void main(String[] a) {
 		//1100010

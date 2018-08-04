@@ -6,7 +6,7 @@ package linkedList;
 	Node(int d){
 		this.data = d;
 	}
-	
+	 
 	void append(int d) {
 		Node end = new Node(d);
 		Node n = this;

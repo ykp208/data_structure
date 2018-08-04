@@ -7,7 +7,7 @@ public class QuickSort {
 	}
 	private static void quickSort(int[] arr,int start, int end) {
 		int part2 = partition(arr,start,end);
-		if (start < part2 -1) {
+		if (start < part2 -1) { 
 			quickSort(arr,start, part2-1);
 		}
 		if(part2 <end) {
@@ -23,6 +23,7 @@ public class QuickSort {
 				swap (arr, start, end);
 				start++;
 				end--;
+				
 			}
 		}
 		return start;

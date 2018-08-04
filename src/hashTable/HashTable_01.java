@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 class HashTable{
 	class Node{
-		String key;
+		String key; 
 		String value;
 		
 		public Node(String key,String value) {

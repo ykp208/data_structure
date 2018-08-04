@@ -6,7 +6,7 @@ class Linkedlist{
 	static class Node{
 		int data;
 		Node next = null;
-	}
+	} 
 	Linkedlist(){
 		header = new Node();
 		

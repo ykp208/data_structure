@@ -2,7 +2,7 @@ package bit;
 
 public class Bit_03 {
 	static int clearBit(int num, int i) {
-		return num & ~(1 << i);
+		return num & ~(1 << i); 
 	}
 	public static void main (String[] arg0) {
 		// 9  == 1001
