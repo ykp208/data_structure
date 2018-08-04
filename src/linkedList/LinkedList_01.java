@@ -1,6 +1,6 @@
 package linkedList;
 
-class Node{
+ class Node{
 	int data;
 	Node next=null;
 	Node(int d){
@@ -39,5 +39,7 @@ public class LinkedList_01 {
 		head.retrieve();
 		head.append(4);
 		head.retrieve();
+		
 	}
+
 }

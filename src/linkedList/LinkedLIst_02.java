@@ -41,6 +41,17 @@ class Linkedlist{
 		}
 		System.out.println(n.data);
 	}
+	
+	Node get(int d) {
+		Node n = header;
+		while(n.next != null) {
+			if(n.data==d) return n;
+			
+			n = n.next;
+		}
+		
+		return n =null;
+	}
 }
 
 
@@ -53,7 +64,19 @@ public class LinkedLIst_02 {
 		ll.append(2);
 		ll.append(3);
 		ll.retrieve();
-		ll.delete(3);
+		
+		deleteNode(ll.get(3));
 		ll.retrieve();
 	}
+	
+	private static boolean deleteNode(linkedList.Linkedlist.Node node) {
+		
+		if(node == null || node.next == null) return false;
+		
+		linkedList.Linkedlist.Node next = node.next;
+		node.data = next.data;
+		node.next = next.next;
+		return true;
+	}
+	
 }
